@@ -21,11 +21,6 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import KFold
 
-
-# 忽略所有警告
-
- 
-
 warnings.simplefilter("ignore")
 
 # 读取训练和测试数据
